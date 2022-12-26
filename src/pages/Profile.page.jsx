@@ -58,11 +58,11 @@ const ProfilePage = () => {
              
                 {userData.isAdmin ? (
                   <>
-                    <strong>Business: </strong><i className="fa-solid fa-check"></i>
+                    <strong>Admin: </strong><i className="fa-solid fa-check"></i>
                   </>
                 ) : (
                   <>
-                    <strong>Business: </strong><i className="fa-solid fa-circle-xmark"></i>
+                    <strong>Admin: </strong><i className="fa-solid fa-circle-xmark"></i>
                   </>
                 )}
             </p>

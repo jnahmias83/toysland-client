@@ -112,7 +112,7 @@ const NavBarComponent = () => {
                       aria-current="page"
                       to="/preferedtoys"
                     >
-                      My prefered toys
+                      My preferred toys
                     </NavLink>
                   </li>
                   <li className="nav-item">

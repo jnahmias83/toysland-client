@@ -69,7 +69,7 @@ const EditToyPage = () => {
     }
     if (toyData.description.length < 2) {
       desc_err =
-        "<span class='text-danger'>Deescription needs to contain at least 2 characters</span>";
+        "<span class='text-danger'>Description needs to contain at least 2 characters</span>";
     }
     if (toyData.category.length < 3) {
       cat_err =

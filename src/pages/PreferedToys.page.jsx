@@ -33,7 +33,7 @@ const PreferedToysPage = (props) => {
 
   return (
     <>
-      <h1 className="my-3">My prefered toys</h1>
+      <h1 className="my-3">My preferred toys</h1>
 
       {toys.length > 0 ? (
         <>
@@ -122,7 +122,7 @@ const PreferedToysPage = (props) => {
           </div>
         </>
       ) : (
-        <p className="text-center">No prefered toys</p>
+        <p className="text-center">No preferred toys</p>
       )}
     </>
   );
